@@ -1,0 +1,358 @@
+/*全体　共通
+最初から設定してあるので特に変更
+しなくても大丈夫です♪
+-----------------*/
+body {
+	font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	line-height: 1.75;
+	font-size: 16px;
+	background: #74ebd5;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #ACB6E5, #74ebd5);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*全体
+/*ーーーーーーーーーーー*/
+body {
+	width: 960px;
+	margin: auto;
+}
+
+/*title
+/*ーーーーーーーーーーー*/
+.title_box {
+	background: url(../img/penimage_1.png);
+	background-size: cover;
+	background-position: center;
+	height: 360px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+}
+
+.title_logo {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	justify-content: center;
+	font-size: 21px;
+	font-weight: bold;
+	background-color: #ACB6E5;
+}
+
+.title_logo img {
+	width: 30%;
+	padding: 0 100px 0 0;
+}
+
+.title_box h1 {
+	font-size: 48px;
+	font-weight: bold;
+	text-shadow: 1px 2px 3px #222;
+}
+
+.title_box p {
+	font-size: 48px;
+	font-weight: bold;
+	text-shadow: 1px 2px 3px #222;
+}
+
+.list_btn {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+/*about
+---------------------*/
+.about_box {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	background-color: #fff;
+}
+
+.about_box h2 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #ACB6E5;
+	margin: 64px 0 0;
+}
+
+
+.about_1 {
+	margin: 24px 0 0 0;
+}
+
+.about_2 {
+	margin: 64px 0 0 0;
+}
+
+.about_3 {
+	margin: 40px 0 0 0;
+}
+
+.loop_warp {
+	margin: 32px 0 64px 0;
+	display: flex;
+	justify-content: center;
+	position: relative;
+
+}
+
+.loop_warp img {
+	width: 28%;
+	height: 220px;
+}
+
+.flex_item {
+	flex: basis 100%;
+}
+
+.flex_item img {
+	border-radius: 30px;
+}
+
+/*course
+---------------------*/
+.course_bgc {
+	background-color: #fff;
+}
+
+
+.course_top {
+	text-align: center;
+	background-color: #fff;
+}
+
+.course_top h2 {
+	color: #222;
+}
+
+.course_top p {
+	margin: 0 0 64px 0;
+}
+
+.course_box {
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	width: 960px;
+	height: 300px;
+}
+
+
+.course_image img {
+	width: 100%;
+	height: 100%;
+	border-radius: 30px;
+}
+
+
+.course_text {
+	width: 45%;
+	display: flex;
+	justify-content: center;
+	align-items: left;
+	flex-direction: column;
+	text-align: left;
+	background: #fafafa;
+	padding: 0 48px 0 48px;
+}
+
+.course_text p {
+	margin: 40px 0 0 0;
+}
+
+/*news
+---------------------*/
+.news_box {
+	text-align: center;
+	background-color: #fff;
+	padding: 32px;
+}
+
+.news_top h2 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #ACB6E5;
+}
+
+.news_list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.news_item {
+	width: 31%;
+	text-align: left;
+	line-height: 2.4;
+}
+
+.news_item img {
+	width: 100%;
+}
+
+.btn_div {
+	margin: 56px 0 48px 0px;
+}
+
+.btn {
+	display: block;
+	height: 60px;
+	width: 300px;
+	margin: auto;
+	padding: 10px 0 10px 0;
+	font-size: 21px;
+	color: #fff;
+	background-color: #ACB6E5;
+	text-align: center;
+}
+
+
+/*access
+---------------------*/
+.access_box {
+	background-color: #fafafa;
+	margin: auto;
+	padding: 0 0 32px 0;
+
+}
+
+.access_top h2 {
+	font-size: 24px;
+	color: #222;
+	text-align: center;
+	padding: 64px 0 0 0;
+
+}
+
+
+.access_top p {
+	text-align: center;
+	padding: 0 0 64px 0;
+}
+
+.access_detail {
+	display: flex;
+	margin: auto;
+	vertical-align: center;
+	justify-content: center;
+	text-align: left;
+	background-color: #fafafa;
+	height: 250px;
+	line-height: 2.4;
+	margin: 64px 0 0 0;
+}
+
+/*contact
+---------------------*/
+.contact_bgc {
+	background-color: #fff;
+
+}
+
+.contact_box {
+	text-align: center;
+	width: 68%;
+	margin: auto;
+	padding: 64px 0;
+
+}
+
+
+.contact_top {
+	margin: 64px 0 64px 0;
+}
+
+
+.contact_top h2 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #222;
+}
+
+.contact_text {
+	margin: 0px 0 80px 0;
+	vertical-align: center;
+
+}
+
+.form_inner {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.form_title {
+	width: 140px;
+	text-align: left;
+	font-weight: bold;
+	text-align: left;
+	margin: 64 0 0 24px;
+}
+
+.form_item {
+	width: 370px;
+	color: gray;
+	margin: 0 0 0 24px;
+	text-align: left;
+}
+
+.sorround {
+	padding: 0.5em 1em;
+	margin: 2em 0;
+	color: #222;
+	background: #FFF;
+	border: solid 3px #ACB6E5;
+	border-radius: 10px;
+	width: 328px;
+}
+
+.submit {
+	padding: 0.5em 1em;
+	margin: 2em 0;
+	font-size: 18px;
+	color: white;
+	background: #ACB6E5;
+	border: solid 3px#ACB6E5;
+	border-radius: 10px;
+	font-weight: bold;
+	width: 298px;
+	margin: auto;
+}
+
+.footer {
+	display: flex;
+	background-color: #ACB6E5;
+}
+
+.footer small {
+	color: white;
+	margin: auto;
+	font-size: 18px;
+	height: 82px;
+	padding: 32px 0;
+	vertical-align: center;
+}
